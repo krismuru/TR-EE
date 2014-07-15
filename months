@@ -1,0 +1,12 @@
+
+turns = 0
+while turns <= 3:                                    # ends program after three words
+    word = raw_input('Enter the word in Turkish: ')
+    word = word.lower()
+    file_handle = open('months.txt')                 # file with translated words
+    for line in file_handle:
+        if line.startswith(word):
+            begin = line.find('=')
+            translate = line[begin + 2 :]
+            print translate
+            turns +=1
