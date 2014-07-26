@@ -1,0 +1,12 @@
+ocak = jaanuar			
+şubat = veebruar			
+mart = märts			
+nisan = aprill			
+mayıs = mai		
+haziran = juuni 			
+temmuz = juuli			
+ağustos = august		
+eylül = september			
+ekim = oktoober			
+kasım = november			
+aralık = detsember
